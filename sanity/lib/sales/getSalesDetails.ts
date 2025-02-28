@@ -19,10 +19,10 @@ export const getSalesDetails = async (couponCode: CouponCode) => {
             }
         });
 
-        return activeSaleDetails ? activeSaleDetails.data : '';
+        return activeSaleDetails ? activeSaleDetails.data : null;
 
     } catch (err) {
         console.error("Error fetching sale details:", err);
-        return [];
+        return null;
     }
 };

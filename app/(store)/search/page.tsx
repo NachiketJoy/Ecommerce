@@ -1,7 +1,7 @@
 import ProductGrid from "@/components/ProductGrid";
 import { searchProductsByName } from "@/sanity/lib/products/searchProductsByName";
 
-async function SeaarchPage({
+async function SearchPage({
     searchParams,
 }: {
     searchParams: {
@@ -39,4 +39,4 @@ async function SeaarchPage({
     )
 }
 
-export default SeaarchPage
+export default SearchPage

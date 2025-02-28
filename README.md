@@ -1,3 +1,7 @@
+## Description:
+This is a simple e-commerce app built with Next.js 15. It uses Clerk for secure user authentication, so you can log in and sign up effortlessly. Zustand helps manage the app's state, making everything run smoothly, while Sanity is used to handle content like products.
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
